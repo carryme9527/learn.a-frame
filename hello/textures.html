@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello, WebVR! - A-Frame</title>
+    <meta name="description" content="Hello, WebVR! - A-Frame">
+    <script src="https://aframe.io/releases/0.5.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-text value="press ctrl + alt + i" color="#111" position="-5 3 -5" rotation="0 45 0" align="center"></a-text>
+      <a-sphere src="https://c1.staticflickr.com/3/2888/33337865973_2e657a741c_k.jpg" radius="5" position="10 0 -15" rotation="0 0 -10">
+        <a-animation easing="linear" attribute="rotation" dur="20000" to="0 360 -10" repeat="indefinite"></a-animation>
+      </a-sphere>
+      <a-sky src="https://c1.staticflickr.com/3/2810/34168456905_6d5adef150_k.jpg" radius="30" rotation="0 -90 0"></a-sky>
+    </a-scene>
+  </body>
+</html>
